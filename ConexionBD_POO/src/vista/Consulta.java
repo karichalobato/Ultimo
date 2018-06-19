@@ -5,6 +5,7 @@
  */
 package vista;
 
+import java.awt.Container;
 import javax.swing.ButtonGroup;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
@@ -87,5 +88,11 @@ public class Consulta extends JFrame {
         resultados = new JTable();
         buscar = new JButton ("Buscar");
         
+    }
+
+    private void llenarTabla() {
+    }
+
+    private void eventos() {
     }
 }
